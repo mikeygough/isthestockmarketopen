@@ -2,6 +2,10 @@
 
 {% block body %}
 
-  NO
+  {% if holiday %}
+    <p>YES</p>
+  {% else %}
+    <p>NO</p>
+  {% endif %}
 
 {% endblock %}
